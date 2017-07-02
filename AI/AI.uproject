@@ -1,6 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.14",
+	"EngineAssociation": "4.16",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"TargetPlatforms": [
+		"AllDesktop",
+		"PS4",
+		"Switch",
+		"WindowsNoEditor",
+		"XboxOne"
+	]
 }

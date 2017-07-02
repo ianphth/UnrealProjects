@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+/AI/Plugins/Wwise/Binaries
+/AI/Plugins/Wwise/ThirdParty
+/AI/Content/StarterContent
+/AI/Saved
+/AI/Intermediate

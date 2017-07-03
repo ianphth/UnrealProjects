@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5EE8B4CD-6CC3-4B47-A186-95B6025A59F9}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5EE8B4CD-6CC3-4B47-A186-95B6025A59F9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5EE8B4CD-6CC3-4B47-A186-95B6025A59F9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Field_Enter" ID="{39E156F6-15E7-4173-BBF2-9ABC76DBB266}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{A801C62A-8C23-4816-80D6-350C02BDCE15}" ShortID="900909708" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
+								<GroupItem Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Play" ID="{12B321D5-DC4E-4BE1-8010-BCBF4FDA7D40}" ShortID="658771037" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{871EC757-105B-4018-B9E8-55E168EDF314}" Global="false">
+									<ObjectRef Name="Park" ID="{8316B34E-C01D-492B-A5EF-7CDE4E647CE3}" WorkUnitID="{8DB5AAAC-7117-4EA1-9015-BC5F1BE83F54}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

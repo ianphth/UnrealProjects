@@ -20,6 +20,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Field_Combat" ID="{96BB1FC0-229C-4D4A-8787-33FC23754ADE}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{4DF5D7BA-DA83-4D6C-850A-AD552D6FABE8}" ShortID="5413985" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
+								<GroupItem Name="Detected" ID="{CF98B0AB-56C6-4E05-921C-BB449FDF0A46}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Field_Leave" ID="{1197390B-1640-4453-A0F6-1A950447D0C9}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{395C935B-4F1E-4619-A61C-7EBA33B3E16C}" ShortID="596273863" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+								<Property Name="FadeCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{C7F2FCAE-ED8B-4D25-8D88-49952A7A8CCD}" Global="false">
+									<ObjectRef Name="Park" ID="{8316B34E-C01D-492B-A5EF-7CDE4E647CE3}" WorkUnitID="{8DB5AAAC-7117-4EA1-9015-BC5F1BE83F54}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{527AAFE7-6D76-435A-86C0-CB679EB9FE14}" ShortID="809402095" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
+								<GroupItem Name="None" ID="{D793CA86-8925-4264-B0CF-29EA192C34B3}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Field_Return" ID="{0D72C793-FFC9-438A-8BAD-95F06F207D59}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{6C21CF67-E144-44E4-859C-5BA58680983F}" ShortID="1019466479" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
+								<GroupItem Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}"/>
+							</SetItemParam>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

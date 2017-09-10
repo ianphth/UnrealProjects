@@ -1,64 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{5EE8B4CD-6CC3-4B47-A186-95B6025A59F9}" SchemaVersion="75">
+<WwiseDocument Type="WorkUnit" ID="{5EE8B4CD-6CC3-4B47-A186-95B6025A59F9}" SchemaVersion="80">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{5EE8B4CD-6CC3-4B47-A186-95B6025A59F9}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Field_Enter" ID="{39E156F6-15E7-4173-BBF2-9ABC76DBB266}">
 					<ChildrenList>
-						<Action Name="Set State" ID="{A801C62A-8C23-4816-80D6-350C02BDCE15}" ShortID="900909708" Type="SetState" Scope="All" Global="true">
-							<SetItemParam>
-								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
-								<GroupItem Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}"/>
-							</SetItemParam>
+						<Action Name="" ID="{A801C62A-8C23-4816-80D6-350C02BDCE15}" ShortID="900909708">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}" WorkUnitID="{ACDD25B7-A2C8-4E1C-AE11-E8344E2BCC01}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
-						<Action Name="Play" ID="{12B321D5-DC4E-4BE1-8010-BCBF4FDA7D40}" ShortID="658771037" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{871EC757-105B-4018-B9E8-55E168EDF314}" Global="false">
+						<Action Name="" ID="{12B321D5-DC4E-4BE1-8010-BCBF4FDA7D40}" ShortID="658771037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
 									<ObjectRef Name="Park" ID="{8316B34E-C01D-492B-A5EF-7CDE4E647CE3}" WorkUnitID="{8DB5AAAC-7117-4EA1-9015-BC5F1BE83F54}"/>
-								</Element>
-							</ElementList>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Field_Combat" ID="{96BB1FC0-229C-4D4A-8787-33FC23754ADE}">
 					<ChildrenList>
-						<Action Name="Set State" ID="{4DF5D7BA-DA83-4D6C-850A-AD552D6FABE8}" ShortID="5413985" Type="SetState" Scope="All" Global="true">
-							<SetItemParam>
-								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
-								<GroupItem Name="Detected" ID="{CF98B0AB-56C6-4E05-921C-BB449FDF0A46}"/>
-							</SetItemParam>
+						<Action Name="" ID="{4DF5D7BA-DA83-4D6C-850A-AD552D6FABE8}" ShortID="5413985">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Detected" ID="{CF98B0AB-56C6-4E05-921C-BB449FDF0A46}" WorkUnitID="{ACDD25B7-A2C8-4E1C-AE11-E8344E2BCC01}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Field_Leave" ID="{1197390B-1640-4453-A0F6-1A950447D0C9}">
 					<ChildrenList>
-						<Action Name="Stop" ID="{395C935B-4F1E-4619-A61C-7EBA33B3E16C}" ShortID="596273863" Type="Stop" Scope="One" Global="false">
+						<Action Name="" ID="{395C935B-4F1E-4619-A61C-7EBA33B3E16C}" ShortID="596273863">
 							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="Delay" Type="Real64" Value="1"/>
 								<Property Name="FadeCurve" Type="int16" Value="6"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
-							<ElementList>
-								<Element ID="{C7F2FCAE-ED8B-4D25-8D88-49952A7A8CCD}" Global="false">
+							<ReferenceList>
+								<Reference Name="Target">
 									<ObjectRef Name="Park" ID="{8316B34E-C01D-492B-A5EF-7CDE4E647CE3}" WorkUnitID="{8DB5AAAC-7117-4EA1-9015-BC5F1BE83F54}"/>
-								</Element>
-							</ElementList>
+								</Reference>
+							</ReferenceList>
 						</Action>
-						<Action Name="Set State" ID="{527AAFE7-6D76-435A-86C0-CB679EB9FE14}" ShortID="809402095" Type="SetState" Scope="All" Global="true">
-							<SetItemParam>
-								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
-								<GroupItem Name="None" ID="{D793CA86-8925-4264-B0CF-29EA192C34B3}"/>
-							</SetItemParam>
+						<Action Name="" ID="{527AAFE7-6D76-435A-86C0-CB679EB9FE14}" ShortID="809402095">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{D793CA86-8925-4264-B0CF-29EA192C34B3}" WorkUnitID="{ACDD25B7-A2C8-4E1C-AE11-E8344E2BCC01}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Field_Return" ID="{0D72C793-FFC9-438A-8BAD-95F06F207D59}">
 					<ChildrenList>
-						<Action Name="Set State" ID="{6C21CF67-E144-44E4-859C-5BA58680983F}" ShortID="1019466479" Type="SetState" Scope="All" Global="true">
-							<SetItemParam>
-								<Group Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
-								<GroupItem Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}"/>
-							</SetItemParam>
+						<Action Name="" ID="{6C21CF67-E144-44E4-859C-5BA58680983F}" ShortID="1019466479">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}" WorkUnitID="{ACDD25B7-A2C8-4E1C-AE11-E8344E2BCC01}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>

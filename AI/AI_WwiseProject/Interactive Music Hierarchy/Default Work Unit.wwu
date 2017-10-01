@@ -6,6 +6,7 @@
 				<MusicSwitchContainer Name="Park" ID="{8316B34E-C01D-492B-A5EF-7CDE4E647CE3}" ShortID="634743578">
 					<PropertyList>
 						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="Mode" Type="int16" Value="1"/>
 						<Property Name="Tempo" Type="Real64" Value="80"/>
 					</PropertyList>
 					<ReferenceList>
@@ -331,11 +332,6 @@
 						<MusicPlaylistContainer Name="Combat" ID="{B60F7EF2-5444-4896-AF9B-3EAC5D7E2FBB}" ShortID="9837375">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="80"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>5</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -513,6 +509,14 @@
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
+								<StateRef Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}"/>
+								<State Name="Custom State" ID="{4BA52AD2-8011-4D73-BFA8-91901FAA92BF}" ShortID="310726081">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-10"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="EnterDungeon" ID="{B12BCB28-38BB-4B1D-AA17-48DBA7E886C8}"/>
 								<State Name="Custom State" ID="{9C535C56-0980-4527-89BA-A402DF48FFBF}" ShortID="438162800">
 									<PropertyList>
@@ -522,10 +526,10 @@
 								</State>
 							</CustomState>
 							<CustomState>
-								<StateRef Name="Detected" ID="{CF98B0AB-56C6-4E05-921C-BB449FDF0A46}"/>
-								<State Name="Custom State" ID="{EAB98DC7-4A4A-43DF-8211-81D1F0F34101}" ShortID="306702889">
+								<StateRef Name="Bad" ID="{D4FC55B0-354E-4F98-92C1-BD5F6C4B3A77}"/>
+								<State Name="Custom State" ID="{326959BC-4C46-4480-A94C-B6B1F05CEF34}" ShortID="23563600">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="5"/>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
 									</PropertyList>
 								</State>
 							</CustomState>
@@ -655,11 +659,13 @@
 					</TransitionList>
 					<ArgumentList>
 						<ArgumentRef Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
+						<ArgumentRef Name="PlayerState" ID="{6BA2B4E6-E96C-44A1-99C1-5CC3291409A9}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
 								<PathElementRef Name="Music" ID="{5041CDC4-E83E-489F-965D-1C621F139F8D}"/>
+								<PathElementRef Name="PlayerState" ID="{6BA2B4E6-E96C-44A1-99C1-5CC3291409A9}"/>
 							</Path>
 							<AudioNodeInfo>
 								<NoObject Platform="Linked"/>
@@ -668,6 +674,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="Detected" ID="{CF98B0AB-56C6-4E05-921C-BB449FDF0A46}"/>
+								<PathElementRef Name="PlayerState" ID="{6BA2B4E6-E96C-44A1-99C1-5CC3291409A9}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Combat" ID="{B60F7EF2-5444-4896-AF9B-3EAC5D7E2FBB}" WorkUnitID="{8DB5AAAC-7117-4EA1-9015-BC5F1BE83F54}" Platform="Linked"/>
@@ -676,6 +683,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="EnterDungeon" ID="{B12BCB28-38BB-4B1D-AA17-48DBA7E886C8}"/>
+								<PathElementRef Name="PlayerState" ID="{6BA2B4E6-E96C-44A1-99C1-5CC3291409A9}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Ambient" ID="{52D86069-B9E3-4618-9F73-0B63DD88B094}" WorkUnitID="{8DB5AAAC-7117-4EA1-9015-BC5F1BE83F54}" Platform="Linked"/>
@@ -684,6 +692,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="Exploring" ID="{02C52C97-2376-433C-9157-6048A647DDEA}"/>
+								<PathElementRef Name="PlayerState" ID="{6BA2B4E6-E96C-44A1-99C1-5CC3291409A9}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Explore" ID="{9EAE93B5-C655-407E-AD9C-179CEE33BCC2}" WorkUnitID="{8DB5AAAC-7117-4EA1-9015-BC5F1BE83F54}" Platform="Linked"/>

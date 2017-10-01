@@ -86,6 +86,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Hurt" ID="{52E25235-3913-481D-8C83-73DA2247946E}">
+					<ChildrenList>
+						<Action Name="" ID="{CCA6D1F4-3AFB-4F94-918D-32295F1C8B07}" ShortID="695879362">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bad" ID="{D4FC55B0-354E-4F98-92C1-BD5F6C4B3A77}" WorkUnitID="{ACDD25B7-A2C8-4E1C-AE11-E8344E2BCC01}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Normal" ID="{18D1DCD1-C9AB-4C6A-BC0E-E545D43A0282}">
+					<ChildrenList>
+						<Action Name="" ID="{16817FB0-F614-4BEF-8E30-98981D1893FE}" ShortID="872104322">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Good" ID="{3D9B947C-768F-4552-ADD3-81D233F09D20}" WorkUnitID="{ACDD25B7-A2C8-4E1C-AE11-E8344E2BCC01}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

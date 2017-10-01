@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3443322995" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\AI_WwiseProject.Ian Hsieh.wsettings" DateLow="3443262960" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\AI_WwiseProject.wproj" DateLow="3443152885" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3443373006" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3443418053" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3443563130" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3444373681" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3444443725" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3444503798" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3444563792" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Effects\Factory Effects.wwu" DateLow="3444778938" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Events\Default Work Unit.wwu" DateLow="3445024101" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3445074149" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3446049790" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3446224892" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3446269927" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3446329996" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3446379998" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3446450059" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Queries\Factory Queries.wwu" DateLow="3446510107" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3446565150" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3446605161" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\States\Default Work Unit.wwu" DateLow="3446755270" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3446795268" DateHigh="30616146"/>
-	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3446835294" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3453063406" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\AI_WwiseProject.Ian Hsieh.wsettings" DateLow="1886055428" DateHigh="30616147"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\AI_WwiseProject.wproj" DateLow="3451672348" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3453888946" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3453923968" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3453984016" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3453208495" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3452963328" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3453828910" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3451782414" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Effects\Factory Effects.wwu" DateLow="3453428628" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Events\Default Work Unit.wwu" DateLow="4059173820" DateHigh="30620405"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3453243501" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1779718726" DateHigh="30620407"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3453033380" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3453858915" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3454079074" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3453953990" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3454024026" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Queries\Factory Queries.wwu" DateLow="3453568729" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3453273527" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3453633765" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\States\Default Work Unit.wwu" DateLow="3451732387" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3453173461" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3454054060" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="3454139109" DateHigh="30616146"/>
 </ValidationCache>

@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	518848651	Field_Leave			\Default Work Unit\Field_Leave	
+	1068092414	Player_Hurt			\Default Work Unit\Player_Hurt	
 	1319221340	Field_Return			\Default Work Unit\Field_Return	
+	1432981492	Player_Normal			\Default Work Unit\Player_Normal	
 	1509987202	Field_Combat			\Default Work Unit\Field_Combat	
 	4154785604	Field_Enter			\Default Work Unit\Field_Enter	
 
@@ -18,7 +20,8 @@ State	ID	Name	State Group			Notes
 	1823678183	Exploring	Music			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	306702889	Detected	Music	\Interactive Music Hierarchy\Default Work Unit\Park		
+	23563600	Bad	PlayerState	\Interactive Music Hierarchy\Default Work Unit\Park		
+	310726081	Exploring	Music	\Interactive Music Hierarchy\Default Work Unit\Park		
 	438162800	EnterDungeon	Music	\Interactive Music Hierarchy\Default Work Unit\Park		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

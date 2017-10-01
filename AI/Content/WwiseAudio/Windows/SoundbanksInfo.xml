@@ -20,6 +20,8 @@
 				<Event Id="4154785604" Name="Field_Enter" ObjectPath="\Events\Default Work Unit\Field_Enter"/>
 				<Event Id="518848651" Name="Field_Leave" ObjectPath="\Events\Default Work Unit\Field_Leave"/>
 				<Event Id="1319221340" Name="Field_Return" ObjectPath="\Events\Default Work Unit\Field_Return"/>
+				<Event Id="1068092414" Name="Player_Hurt" ObjectPath="\Events\Default Work Unit\Player_Hurt"/>
+				<Event Id="1432981492" Name="Player_Normal" ObjectPath="\Events\Default Work Unit\Player_Normal"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="872781938" Language="SFX">

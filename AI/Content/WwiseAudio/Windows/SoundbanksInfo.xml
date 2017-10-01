@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
 		<ProjectRoot>E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\</ProjectRoot>
 		<SourceFilesRoot>E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\.cache\Windows\</SourceFilesRoot>
@@ -24,7 +24,7 @@
 			<IncludedMemoryFiles>
 				<File Id="872781938" Language="SFX">
 					<ShortName>07 遊園施設 Amusement Park.wav</ShortName>
-					<Path>SFX\07 遊園施設 Amusement Park_AC0E5EAE.wem</Path>
+					<Path>SFX\07 遊園施設 Amusement Park_98EAC66E.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -46,7 +46,7 @@
 			<IncludedMemoryFiles>
 				<File Id="872781938" Language="SFX">
 					<ShortName>07 遊園施設 Amusement Park.wav</ShortName>
-					<Path>SFX\07 遊園施設 Amusement Park_AC0E5EAE.wem</Path>
+					<Path>SFX\07 遊園施設 Amusement Park_98EAC66E.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

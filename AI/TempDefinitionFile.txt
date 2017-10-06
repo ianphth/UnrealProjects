@@ -1,4 +1,6 @@
-SB_Music	"Field_Leave"
-SB_Music	"Field_Enter"
 SB_Music	"Field_Combat"
+SB_Music	"Field_Enter"
+SB_Music	"Field_Leave"
 SB_Music	"Field_Return"
+SB_Music	"Player_Hurt"
+SB_Music	"Player_Normal"

@@ -66,7 +66,7 @@
 													<ClipList>
 														<MusicClip Name="07 遊園施設 Amusement Park" ID="{562EC381-DBBC-4AA9-ABB2-AD1CEA4D1B47}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7999.99999999946"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8180.14645026902"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="07 遊園施設 Amusement Park" ID="{604541E3-6EF5-4C31-AAC0-3A8EA2331B6B}"/>
@@ -83,7 +83,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>8</XPos>
+																				<XPos>8.18015</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -102,7 +102,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>8</XPos>
+																				<XPos>8.18015</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -121,7 +121,7 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>8</XPos>
+																				<XPos>8.18015</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -140,7 +140,7 @@
 										<MusicCue Name="Exit Cue" ID="{3ED24636-6D55-4109-8885-42C1FA05E1E4}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="8000"/>
+												<Property Name="TimeMs" Type="Real64" Value="8180.14645026902"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -186,11 +186,11 @@
 													<ClipList>
 														<MusicClip Name="07 遊園施設 Amusement Park" ID="{5FF827D5-6294-4C46-8B41-81C9577A1527}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="108000"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="8165.95329487101"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="112812.499999999"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="-8000"/>
+																<Property Name="PlayAt" Type="Real64" Value="-8165.95329487101"/>
 															</PropertyList>
 															<AudioSourceRef Name="07 遊園施設 Amusement Park" ID="{1144ADF6-1D4C-49CB-AACA-7F68BBE9A79E}"/>
 															<PropertyCurveList>
@@ -201,12 +201,12 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>8</XPos>
+																				<XPos>8.16595</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>108</XPos>
+																				<XPos>112.8125</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -220,12 +220,12 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>8</XPos>
+																				<XPos>8.16595</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>108</XPos>
+																				<XPos>112.8125</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -239,12 +239,110 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>8</XPos>
+																				<XPos>8.16595</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>108</XPos>
+																				<XPos>112.8125</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="LoopingEnd" ID="{22C52817-C8BF-4FCA-A4EE-8C6802B51B4D}" ShortID="753216279">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{59388BF6-344D-4DBF-B97D-61FB982D2259}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="07 遊園施設 Amusement Park_01" ID="{E75BCA14-FF75-4162-B3DE-806AA19AC3CC}" ShortID="110506773">
+													<Language>SFX</Language>
+													<AudioFile>07 遊園施設 Amusement Park.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="872781938"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{634A17AD-636C-444C-B390-4DB5CA4DB763}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2AA4611D-0085-4429-AFD1-866C1E6DA2C4}">
+													<ClipList>
+														<MusicClip Name="07 遊園施設 Amusement Park_01" ID="{93D06F62-5CDB-4EE5-9388-CD8BE865EAF4}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="226769.191847834"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="244178.817800564"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-126177.738615404"/>
+															</PropertyList>
+															<AudioSourceRef Name="07 遊園施設 Amusement Park_01" ID="{E75BCA14-FF75-4162-B3DE-806AA19AC3CC}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{12FEC50F-1546-48DD-8390-76D8A205F6E5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>226.76919</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>244.17882</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{39B1ACA9-CD1F-4797-9FB6-C17E8A0D50F4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>226.76919</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>244.17882</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{45427EE6-FCC0-406E-9753-BEDEFD0CFF34}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>226.76919</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>244.17882</XPos>
 																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
@@ -263,7 +361,7 @@
 										<MusicCue Name="Exit Cue" ID="{B449CABC-42E6-41CE-BDBB-FEDA5BEE1F08}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="100000"/>
+												<Property Name="TimeMs" Type="Real64" Value="118001.07918516"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -383,11 +481,11 @@
 													<ClipList>
 														<MusicClip Name="07 遊園施設 Amusement Park" ID="{4D494212-2544-40C1-B7CD-6B44A2F742E0}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="243689.905966482"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="244171.343198218"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="361689.905966482"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="-243689.905966482"/>
+																<Property Name="PlayAt" Type="Real64" Value="-244171.343198218"/>
 															</PropertyList>
 															<AudioSourceRef Name="07 遊園施設 Amusement Park" ID="{188FBCFF-0937-4A53-ABE7-AF05AAE9D7BA}"/>
 															<PropertyCurveList>
@@ -398,7 +496,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>243.68991</XPos>
+																				<XPos>244.17134</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -417,7 +515,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>243.68991</XPos>
+																				<XPos>244.17134</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -436,7 +534,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>243.68991</XPos>
+																				<XPos>244.17134</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -456,11 +554,7 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{7EC4B732-414A-4BE6-AD96-4183661A4330}">
-											<PropertyList>
-												<Property Name="TimeMs" Type="Real64" Value="306.199596773746"/>
-											</PropertyList>
-										</MusicCue>
+										<MusicCue Name="Entry Cue" ID="{7EC4B732-414A-4BE6-AD96-4183661A4330}"/>
 										<MusicCue Name="Exit Cue" ID="{BA52F59C-0D12-402B-B953-25394E0D6A78}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>

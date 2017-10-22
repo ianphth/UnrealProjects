@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="80">
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3453063406" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3453888946" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3453923968" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3453984016" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3453208495" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3452963328" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3453828910" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3451782414" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Effects\Factory Effects.wwu" DateLow="3453428628" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Events\Default Work Unit.wwu" DateLow="4059173820" DateHigh="30620405"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3453243501" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1358391053" DateHigh="30622520"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3453033380" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3453858915" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3454079074" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3453953990" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\PWShowcase_WwiseProject.Ian Hsieh.wsettings" DateLow="3231706180" DateHigh="30624586"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\PWShowcase_WwiseProject.wproj" DateLow="3146893479" DateHigh="30624586"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3454024026" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Queries\Factory Queries.wwu" DateLow="3453568729" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3453273527" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3453633765" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\States\Default Work Unit.wwu" DateLow="3451732387" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3453173461" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3454054060" DateHigh="30616146"/>
+	<ValidationCacheItem File="E:\Games\UE4\UnrealProjects\PWShowcase\PWShowcase_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="3454139109" DateHigh="30616146"/>
+</ValidationCache>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Documents\Unreal Projects\UnrealProjects\AI\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Documents\Unreal Projects\UnrealProjects\AI\AI_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="779753582" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
+			<ShortName>SB_Music</ShortName>
+			<Path>SB_Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1509987202" Name="Field_Combat" ObjectPath="\Events\Default Work Unit\Field_Combat"/>
+				<Event Id="4154785604" Name="Field_Enter" ObjectPath="\Events\Default Work Unit\Field_Enter"/>
+				<Event Id="518848651" Name="Field_Leave" ObjectPath="\Events\Default Work Unit\Field_Leave"/>
+				<Event Id="1319221340" Name="Field_Return" ObjectPath="\Events\Default Work Unit\Field_Return"/>
+				<Event Id="1068092414" Name="Player_Hurt" ObjectPath="\Events\Default Work Unit\Player_Hurt"/>
+				<Event Id="1432981492" Name="Player_Normal" ObjectPath="\Events\Default Work Unit\Player_Normal"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="872781938" Language="SFX">
+					<ShortName>07 遊園施設 Amusement Park.wav</ShortName>
+					<Path>SFX\07 遊園施設 Amusement Park_98EAC66E.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1509987202" Name="Field_Combat" ObjectPath="\Events\Default Work Unit\Field_Combat"/>
+				<Event Id="4154785604" Name="Field_Enter" ObjectPath="\Events\Default Work Unit\Field_Enter"/>
+				<Event Id="518848651" Name="Field_Leave" ObjectPath="\Events\Default Work Unit\Field_Leave"/>
+				<Event Id="1319221340" Name="Field_Return" ObjectPath="\Events\Default Work Unit\Field_Return"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="872781938" Language="SFX">
+					<ShortName>07 遊園施設 Amusement Park.wav</ShortName>
+					<Path>SFX\07 遊園施設 Amusement Park_98EAC66E.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
